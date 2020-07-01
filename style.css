@@ -6,16 +6,18 @@ body{
   
     font-family: 'Muli', sans-serif;
 }
+/* Reuseable Component */
 h1{
     font-size:50px;
     font-weight:800;
 }
 h2{
-    font-size:35px;
+    font-size: 32px;
     margin:5px 0px;
     font-weight:800;
 }
 p{
+    font-size: 14px;
     color:dimgray;
     font-weight:500;
     text-transform: capitalize;
@@ -30,6 +32,7 @@ section{
 img{
     width:100%;
 }
+
 .name-highlight{
     color:#EC4C7B;
     margin-bottom:40px;
@@ -95,6 +98,97 @@ img{
 .work-file div:first-child{
     margin-left:0%;
 }
+section.services{
+    text-align: center;
+}
+.services .container{
+    width:85%;
+    margin:30px auto;
+}
+.services-one p{
+    color:whitesmoke;
+}
+.services .container{
+    padding-left:14rem;
+    overflow: hidden;
+}
+
+.services .box{
+
+    box-shadow: 1px 3px 10px #676464;
+    text-align: left;
+    width:20%;
+    float:left;
+    border:1px solid rgba(171, 171, 171, 0.812);
+    margin:2%;
+    padding:20px 10px;
+    height:250px;
+    background-color:white;
+   
+}
+.services .box h2{
+    padding-left:10px;
+    margin-bottom:0px;
+}
+.services .services-one{
+    background:#38A0F5;
+    color:white;
+}
+
+
+
+.services h3{
+    padding-left:10px;
+    font-size:18px;
+}
+.services p{
+    padding:20px 10px;
+    font-size:13.5px;
+    line-height: 1.4;
+    font-weight: thin;
+    padding-right: 25px;
+
+}
+
+.experiences-section h2{
+    text-align: center;
+}
+.experiences-section{
+    background-image:url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.experiences-div{
+    box-shadow:10px 10px 30px gray;
+    width:35%;
+    margin-left:7%;
+    margin-top:40px;
+    height:250px;
+    padding:40px 20px;
+    text-align: center;
+    background:white;
+}
+#full-stack{
+
+    border-right:12px solid;
+    border-image:linear-gradient(45deg,rgb(15, 255, 43),rgb(255, 0, 0));
+    border-image-slice: 1;
+    border-left:12px solid;
+
+    border-radius: 10px;
+}
+.orange-highlight{
+    color:rgb(234, 165, 4);
+    font-size:15px;
+}
+#baby-web{
+    border-right:12px solid;
+    border-left:12px solid;
+    border-image:linear-gradient(45deg,blue,cyan);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
 .footer-section{
     text-align: center;
     background-image:url('images/footer-bg.png');
